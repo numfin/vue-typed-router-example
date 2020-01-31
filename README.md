@@ -1,5 +1,7 @@
 # vuetsx
 
+example: [https://vue-typed-router-example.netlify.com/](https://vue-typed-router-example.netlify.com/)
+
 # NOT FOR PRODUCTION USE
 
 This example shows how to setup vue project with typescript.
