@@ -61,10 +61,8 @@ export const RouterView = componentFactory.create({
         formatQuery(getHistoryState())
       );
       if (pathNext !== pathBefore) {
-        if (route.path !== location.pathname) {
-          history.pushState(params, "", pathNext);
-          this.setRoute(route);
-        }
+        history.pushState(params, "", pathNext);
+        this.setRoute(route);
       }
     },
     initRoutes(routes?: Route<R>[]) {

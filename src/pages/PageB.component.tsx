@@ -9,7 +9,7 @@ export const PageB = componentFactory.create({
     return (
       <div>
         pageB
-        <PageALink params={{ param1: "hi", param2: "there" }}>
+        <PageALink params={{ param1: "hi", param2: "das" }}>
           To Page A
         </PageALink>
       </div>
